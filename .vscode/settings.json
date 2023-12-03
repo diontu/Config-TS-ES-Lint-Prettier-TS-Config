@@ -1,0 +1,50 @@
+{
+  // formatter - prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // minimap
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 2,
+  // tabs
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  // word wrap
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  // emmet
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.useInlineCompletions": true,
+  // others
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.codeActionsOnSave.rules": null,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "args": [],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    }
+  },
+  // workbench
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 1
+}

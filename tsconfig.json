@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // This tells the TS compiler what module syntax to use! Can be "none", "CommonJS", "UMD", "AMD", "System", "ESNext"
+    // https://www.typescriptlang.org/tsconfig#module
+    "module": "CommonJS",
+    // When there is no type annotation, TS will fallback to the "any" type if it can't infer the type. This can cause some errors to be missed. An error will appear if this is the case.
+    // https://www.typescriptlang.org/tsconfig#noImplicitAny
+    "noImplicitAny": true,
+    // Strips all comments from TypeScript files when converting to JS files. Defaults to false.
+    // https://www.typescriptlang.org/tsconfig#removeComments
+    "removeComments": true,
+    // Outputs the .js (+ .d.ts and .js.map) files into this directory. The directory structure of the original source file is preserved.
+    // https://www.typescriptlang.org/tsconfig#outDir
+    "outDir": "dist",
+    // These files allows debuggers and other tools to display the original TypeScript source code when actually working with the emitted JavaScript files.
+    "sourceMap": true,
+    // null and undefined. Can give the error: 'value' is possibly 'undefined'.
+    // https://www.typescriptlang.org/tsconfig#strictNullChecks
+    "strictNullChecks": true
+  },
+  // "include" includes all the files that should be included in the TS checking.
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
