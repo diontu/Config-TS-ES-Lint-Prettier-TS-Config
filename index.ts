@@ -1,7 +1,7 @@
 const greetings: string = "hello world";
 console.log(greetings);
 
-var varaible = "car";
+var variable = "car";
 
 if ("helo") {
   console.log("hello world");
@@ -10,6 +10,6 @@ if ("helo") {
 greetings.forEach((element) => {});
 
 // below shows the "strictNullChecks" in tsconfig.json
-function nullOrValue(value: string | null) {
+function nullOrValue(value?: string, another: string) {
   console.log(value.length);
 }
