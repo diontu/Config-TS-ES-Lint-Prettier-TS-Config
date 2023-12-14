@@ -4,7 +4,7 @@ VSCode settings are somewhat important, specifically the `formatter` options. Wh
 
 # Setup
 
-To Setup TS and ESLint for other projects, copy the dependencies here in `package.json`, the `.eslintrc` and the `tsconfig.json`.
+To Setup TS and ESLint for other projects, copy the dependencies here in `package.json`, the `.eslintrc` and the `tsconfig.json`. You can also copy the VSCode settings here as well.
 
 # Compile
 
